@@ -66,6 +66,14 @@ reply to some messages with different reactions, or to your commands.
 It also shows how to enable `logging`, which you should always do, but was
 not really needed for the previous two trivial examples.
 
+### [`quart_base.py`]
+
+* Usable as: **user and bot**.
+* Difficulty: **easy**.
+
+This example will listen for messages and show them in a static webpage using 
+Quart web framework.
+
 ### [`assistant.py`]
 
 * Usable as a: **bot**.
@@ -122,3 +130,4 @@ assumes some [`asyncio`] knowledge, but otherwise is easy to follow.
 [`tkinter`]: https://docs.python.org/3/library/tkinter.html
 [tkinter GUI]: https://raw.githubusercontent.com/LonamiWebs/Telethon/master/telethon_examples/screenshot-gui.jpg
 [`events.NewMessage`]: https://docs.telethon.dev/en/latest/modules/events.html#telethon.events.newmessage.NewMessage
+[`quart_base.py`]: https://raw.githubusercontent.com/LonamiWebs/Telethon/master/telethon_examples/quart_base.py
